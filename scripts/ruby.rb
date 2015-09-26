@@ -1,6 +1,6 @@
 # Usage
-# gem install bitclust
-# bitclust setup --versions=2.1.0
+# gem install bitclust-core
+# bitclust setup --versions=2.2.0
 
 lines = `bitclust list --method`.each_line.map do |line|
   line =~ /^.+[#.]([a-zA-Z0-9_?!]+)$/

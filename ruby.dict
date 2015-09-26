@@ -58,7 +58,6 @@ Comparable
 Complex
 Complex
 ConditionVariable
-Config
 Continuation
 Coverage
 CurrentContext
@@ -66,18 +65,6 @@ DBM
 DBMError
 DEBUG
 DEBUGGER__
-DL
-DL::BasicTypes
-DL::CFunc
-DL::CPtr
-DL::CStruct
-DL::CUnion
-DL::DLError
-DL::DLTypeError
-DL::Function
-DL::Handle
-DL::Importer
-DL::Win32Types
 DRb
 DRb::DRbBadScheme
 DRb::DRbBadURI
@@ -110,7 +97,6 @@ Digest
 Digest
 Digest::Base
 Digest::Class
-Digest::HMAC
 Digest::Instance
 Digest::MD5
 Digest::RMD160
@@ -315,7 +301,6 @@ GC::Profiler
 GDBM
 GDBMError
 GDBMFatalError
-GServer
 Gem
 Gem::Builder
 Gem::Cache
@@ -546,7 +531,6 @@ Listbox
 LoadError
 LocalJumpError
 Logger
-Logger::Application
 Logger::Error
 Logger::Formatter
 Logger::LogDevice
@@ -566,15 +550,6 @@ Menu
 Menubutton
 Message
 Method
-MiniTest
-MiniTest::Assertion
-MiniTest::Assertions
-MiniTest::Mock
-MiniTest::Skip
-MiniTest::Spec
-MiniTest::Unit
-MiniTest::Unit::TestCase
-MockExpectationError
 Module
 Monitor
 MonitorMixin
@@ -1338,9 +1313,6 @@ TclTkLib::EventFlag
 TclTkLib::VarAccessFlag
 TempIO
 Tempfile
-Test::Unit
-Test::Unit::Assertions
-Test::Unit::TestCase
 Text
 TextItem
 ThWait
@@ -1654,6 +1626,7 @@ UTCTime
 UTF8String
 UTF8_String
 UnboundMethod
+UncaughtThrowError
 UniversalString
 Variable
 Vector
@@ -1785,7 +1758,6 @@ XMLRPC::WEBrickServlet
 XMP
 YAML
 YAML::DBM
-YAML::EngineManager
 YAML::Store
 ZeroDivisionError
 Zlib
@@ -1833,7 +1805,6 @@ __invoke
 __item_validation_class_list
 __item_validcmd_call
 __method__
-__name__
 __pseudo_toplevel
 __pseudo_toplevel_evaluable?
 __send__
@@ -1849,7 +1820,6 @@ _add_new_tables
 _add_tk_procs
 _addcmd
 _addtag
-_assertions
 _at
 _callback_entry?
 _callback_entry_class?
@@ -2076,6 +2046,7 @@ addtag_closest
 addtag_enclosed
 addtag_overlapping
 addtag_withtag
+adjugate
 adler
 adler32
 adler32_combine
@@ -2119,6 +2090,7 @@ amjd
 ancestors
 anchor
 angle
+angle_with
 any?
 any_char
 any_indices
@@ -2174,30 +2146,6 @@ ask_yes_no
 asn1_flag
 aspect
 assert
-assert_block
-assert_empty
-assert_equal
-assert_in_delta
-assert_in_epsilon
-assert_includes
-assert_instance_of
-assert_kind_of
-assert_match
-assert_nil
-assert_no_match
-assert_not_equal
-assert_not_nil
-assert_not_same
-assert_nothing_raised
-assert_nothing_thrown
-assert_operator
-assert_raise
-assert_raises
-assert_respond_to
-assert_same
-assert_send
-assert_throws
-assertion_count
 assign
 assign_defaults
 assigned_list
@@ -2230,7 +2178,6 @@ attribute_names
 attribute_of
 attributes
 attributes_of
-audit
 auth_cram_md5
 auth_login
 auth_only
@@ -2244,7 +2191,6 @@ autoclose?
 autoload
 autoload?
 autorequire
-autorun
 autoscroll
 avail_in
 avail_out
@@ -2266,10 +2212,10 @@ basic
 basic_auth
 basic_quote_characters
 basic_word_break_characters
+basis
 bbox
 bcc
 beep
-before
 begin
 beginning_of_line?
 begins?
@@ -2302,6 +2248,7 @@ binmode
 binmode?
 binread
 binwrite
+birthtime
 bisque
 bit_length
 bit_set?
@@ -2328,7 +2275,6 @@ bool_element
 borderwidth
 both?
 bottom
-bound?
 break_on_newline
 breakable
 broadaddr
@@ -2342,7 +2288,6 @@ build_args
 build_cert
 build_extensions
 build_indicies
-build_message
 build_self_signed_cert
 builtin_curves
 bulk_threshold
@@ -2379,7 +2324,6 @@ callback_return
 callcc
 caller
 caller_locations
-calltype
 can_parse
 cancel
 cancel_editing
@@ -2403,7 +2347,6 @@ caption
 capture2
 capture2e
 capture3
-capture_io
 captures
 caret
 cascade
@@ -2549,6 +2492,7 @@ codepage
 codepoints
 coerce
 cofactor
+cofactor_expansion
 col_sep
 collect
 collect!
@@ -2567,7 +2511,7 @@ column
 column_cget
 column_configinfo
 column_configure
-column_size
+column_count
 column_vector
 column_vectors
 columncget
@@ -2618,15 +2562,14 @@ configinfo
 configure
 configure_cmd
 configured_args
+confstr
 conj
 connect
 connect_address
 connect_from
 connect_nonblock
 connect_to
-connecting
 connection_for
-connections
 console
 console_size
 const_defined?
@@ -2718,6 +2661,7 @@ created?
 critical?
 crl
 crls
+cross
 crosshairs
 crypt
 css
@@ -2927,7 +2871,6 @@ deq
 dequote
 desc
 descend
-describe
 description
 descriptor_length
 deselect
@@ -2971,7 +2914,7 @@ disable_starttls
 disasm
 disconnect
 disconnected?
-disconnecting
+disjoint?
 dispid
 display
 display_c_call
@@ -3019,6 +2962,7 @@ document_self
 documented?
 domain
 done
+dot
 double_fig
 downcase
 downcase!
@@ -3242,7 +3186,6 @@ eventloop_tkwait_destroy
 eventloop_wait
 examine
 exception
-exception_details
 exchange
 exclude
 exclude_end?
@@ -3305,7 +3248,6 @@ extract_files
 facility
 fail
 failsafe
-failures
 families
 family
 family_addrinfo
@@ -3324,7 +3266,6 @@ fetch_path
 fetch_size
 fetch_spec
 fetcher
-fiddle?
 field?
 field_row?
 field_size_limit
@@ -3390,8 +3331,8 @@ finished
 finished?
 finite?
 first
-first?
 first_lineno
+first_minor
 fix
 fixed_encoding?
 fixup
@@ -3400,7 +3341,6 @@ flash
 flatten
 flock
 floor
-flunk
 flush
 flush_left
 flush_next_in
@@ -3498,7 +3438,6 @@ generate_rdoc
 generate_ri
 generate_windows_script
 generator
-generic?
 genspace
 geometry
 get
@@ -3675,6 +3614,7 @@ has_unit_tests?
 has_value?
 hash
 hash_kv
+hash_old
 have_devel?
 have_framework
 have_func
@@ -3730,6 +3670,7 @@ host
 hostname
 hour
 href
+hstack
 html
 hton
 http_header_extra
@@ -3787,7 +3728,6 @@ import_symbol
 in_files
 in_namespace
 in_reply_to
-in_service?
 in_transaction
 inactivate
 inactive
@@ -3801,11 +3741,11 @@ includes
 incomplete_input?
 indent
 indentation
+independent?
 index
 index_in_parent
 index_signature
 indices
-infect_with_assertions
 infinite?
 infinity?
 inflate
@@ -3826,7 +3766,6 @@ initialize_copy
 initialize_methods_etc
 inject
 inline_source
-inner_product
 ino
 input
 input?
@@ -3887,6 +3826,7 @@ integer?
 intern
 internal_encoding
 interps
+intersect?
 ints
 inuse
 inv
@@ -3989,6 +3929,7 @@ itemfocus
 itemlistvar
 items
 itemtype
+itself
 iv_len
 jacobian
 jisx0301
@@ -4056,6 +3997,7 @@ last_update
 last_value
 latest_cache_data
 latest_cache_file
+latest_gc_info
 latest_specs
 latest_system_cache_file
 latest_user_cache_file
@@ -4242,7 +4184,6 @@ matching_file?
 matching_files
 math?
 max
-maxConnections
 max_age
 max_by
 max_flag_count
@@ -4339,7 +4280,6 @@ move_column
 msgcat_ext
 mtime
 mu_extended
-mu_pp
 mu_synchronize
 mu_try_lock
 mu_unlock
@@ -4350,21 +4290,6 @@ multipart?
 multipart_form
 multitask
 must_C_version
-must_be
-must_be_close_to
-must_be_empty
-must_be_instance_of
-must_be_kind_of
-must_be_nil
-must_be_same_as
-must_be_within_epsilon
-must_equal
-must_include
-must_match
-must_raise
-must_respond_to
-must_send
-must_throw
 nOE_element_def
 nO_element_def
 n_bytes
@@ -4423,6 +4348,7 @@ next
 next!
 next_day
 next_element
+next_float
 next_month
 next_sibling
 next_sibling_node
@@ -4466,6 +4392,7 @@ now
 nowrite
 nowrite_flag
 nph?
+nprocessors
 nread
 ns_tk_call
 ns_tk_call_with_enc
@@ -4625,7 +4552,6 @@ parsetext
 partition
 parts
 pass
-passed?
 passive
 passwd
 password
@@ -4636,6 +4562,7 @@ path_info
 path_ok?
 path_translated
 path_warning
+pathconf
 pathmap
 pathmap_explode
 pathmap_partial
@@ -4719,7 +4646,6 @@ post_match
 postcascade
 postcommand
 postscript
-power!
 ppid
 ppx
 pragma
@@ -4733,6 +4659,7 @@ prefixes
 prepare_range
 prepend
 prepend_features
+prepended
 preprocess
 prerequisites
 present
@@ -4746,6 +4673,7 @@ pretty_print_inspect
 pretty_print_instance_variables
 prev
 prev_day
+prev_float
 prev_month
 prev_year
 previous
@@ -4852,7 +4780,6 @@ public_method
 public_method_defined?
 public_methods
 public_send
-puke
 pull
 push
 push_all_highest_version_gems_on_load_path
@@ -4873,7 +4800,6 @@ quick
 quiet
 quit
 quo
-quof
 quota
 quotaroots
 quote
@@ -4919,7 +4845,6 @@ rcptto_list
 rdev
 rdev_major
 rdev_minor
-rdiv
 rdoc_dir
 rdoc_files
 rdoc_include
@@ -5032,6 +4957,7 @@ remove_response_handler
 remove_spec
 remove_tk_procs
 rename
+renegotiation_cb
 renew
 reopen
 reorganize
@@ -5142,8 +5068,8 @@ row
 row_cget
 row_configinfo
 row_configure
+row_count
 row_sep
-row_size
 row_vector
 row_vectors
 rowconfiginfo
@@ -5167,7 +5093,6 @@ rule
 run
 run_config
 run_rdoc
-run_test_suites
 running?
 running_mainloop?
 runtime_dependencies
@@ -5351,7 +5276,6 @@ set_limit
 set_list
 set_list_element
 set_list_element_type
-set_log
 set_max_block_time
 set_next_callback
 set_no_event_wait
@@ -5434,8 +5358,6 @@ setsid
 setsockopt
 setuid
 setuid?
-setup
-setup_argv
 setup_params
 setup_rdoc
 sexp
@@ -5503,14 +5425,15 @@ skipDays
 skipHours
 skip_blanks?
 skip_until
-skips
 slave?
 slave_of?
 slaves
 sleep
 slice
 slice!
+slice_after
 slice_before
+slice_when
 sock
 socket?
 socket_type
@@ -5590,11 +5513,9 @@ start_profile
 start_sequence
 start_service
 start_stream
-start_time
 start_with?
 started
 started?
-starting
 starttls
 starttls?
 starttls_always?
@@ -5606,7 +5527,6 @@ status
 status?
 status_line
 status_string
-stdlog
 stdout
 stdout_mutex
 step
@@ -5618,7 +5538,6 @@ stop_doc
 stop_profile
 stop_service
 stopped?
-stopping
 stopsig
 storbinary
 store
@@ -5668,6 +5587,7 @@ summary_indent
 summary_width
 sunday?
 super_each
+super_method
 superclass
 swapcase
 swapcase!
@@ -5675,7 +5595,6 @@ switch
 sy_updateBase
 sy_updateFrequency
 sy_updatePeriod
-syck?
 symbol
 symbol_element
 symlink
@@ -5700,6 +5619,7 @@ synthesize_file_task
 sysaccept
 syscall
 sysclose
+sysconf
 sysconfdir
 syslog
 sysopen
@@ -5772,7 +5692,6 @@ tcl_pkgconfig_list
 tcp
 tcp_server_loop
 tcp_server_sockets
-teardown
 tearoffcommand
 tee
 telnetmode
@@ -5785,13 +5704,9 @@ terminate_job
 terminated?
 termsig
 test
-test_count
 test_file
 test_files
-test_methods
-test_order
 test_suite_file
-test_suites
 text
 text?
 textInput
@@ -6027,6 +5942,9 @@ unescape_filename?
 ungetbyte
 ungetc
 ungrid
+unicode_normalize
+unicode_normalize!
+unicode_normalized?
 uninstall
 uninstall_cmd
 uninstall_doc
@@ -6167,6 +6085,7 @@ vrootwidth
 vrootx
 vrooty
 vsatisfies
+vstack
 wait
 wait?
 wait_all_jobs_execution
@@ -6321,7 +6240,6 @@ yaml
 yaml?
 yaml_initialize
 yaml_tag
-yamler
 yconfig
 yday
 year
