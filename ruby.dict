@@ -54,6 +54,7 @@ Canvas
 Checkbutton
 Class
 CloseKey
+ClosedQueueError
 Comparable
 Complex
 Complex
@@ -564,6 +565,7 @@ NameError
 Net::APOP
 Net::APOPSession
 Net::FTP
+Net::FTP::MLSxEntry
 Net::FTPConnectionError
 Net::FTPError
 Net::FTPPermError
@@ -579,6 +581,7 @@ Net::HTTP::Lock
 Net::HTTP::Mkcol
 Net::HTTP::Move
 Net::HTTP::Options
+Net::HTTP::Patch
 Net::HTTP::Post
 Net::HTTP::Propfind
 Net::HTTP::Proppatch
@@ -672,6 +675,7 @@ Net::IMAP::StatusData
 Net::IMAP::TaggedResponse
 Net::IMAP::ThreadMember
 Net::IMAP::UntaggedResponse
+Net::OpenTimeout
 Net::POP
 Net::POP3
 Net::POPAuthenticationError
@@ -688,6 +692,7 @@ Net::ProtoSyntaxError
 Net::ProtoUnknownError
 Net::ProtocRetryError
 Net::ProtocolError
+Net::ReadTimeout
 Net::SMTP
 Net::SMTP::Response
 Net::SMTPAuthenticationError
@@ -1318,6 +1323,10 @@ TextItem
 ThWait
 Thread
 Thread::Backtrace::Location
+Thread::ConditionVariable
+Thread::Mutex
+Thread::Queue
+Thread::SizedQueue
 ThreadError
 ThreadGroup
 ThreadsWait
@@ -2102,6 +2111,7 @@ append
 append_data
 append_features
 append_on_display
+appendable?
 application
 apply
 appname
@@ -2280,6 +2290,7 @@ breakable
 broadaddr
 broadcast
 bsearch
+bsearch_index
 bubblebabble
 buf
 build
@@ -2429,6 +2440,7 @@ chown_R
 chr
 chroot
 chunk
+chunk_while
 chunked?
 cipher
 ciphers
@@ -2591,6 +2603,7 @@ content_range
 content_type
 context
 continue
+continue_timeout
 contourbox
 contourfill
 contourlines
@@ -2639,6 +2652,7 @@ crc32_combine
 crc32_data
 crc32_file
 crc_table
+creatable?
 create
 create_body
 create_copy
@@ -2797,9 +2811,12 @@ default_exec_format
 default_executable
 default_external
 default_id_conv
+default_imap_port
+default_imaps_port
 default_internal
 default_load_limit
 default_ole_types
+default_passive
 default_path
 default_pop3_port
 default_pop3s_port
@@ -2834,6 +2851,7 @@ del
 delay
 delegate
 delegate_alias
+deletable?
 delete
 delete!
 delete_all
@@ -2866,6 +2884,7 @@ dependencies
 dependencies_ok?
 dependency_order
 dependent_gems
+deprecate_constant
 depth
 deq
 dequote
@@ -2896,6 +2915,7 @@ dh_compute_key
 diagonal
 diagonal?
 diagram
+dig
 digest
 digest!
 digest_length
@@ -2905,6 +2925,7 @@ dir_stack
 direction
 directory
 directory?
+directory_makable?
 dirname
 disable
 disable_C_comments
@@ -3126,6 +3147,7 @@ ensure_dependency
 ensure_gem_subdirectories
 ensure_ssl_available
 enter
+enterable?
 entities
 entity
 entity_expansion_limit
@@ -3246,6 +3268,7 @@ extract
 extract_entry
 extract_files
 facility
+facts
 fail
 failsafe
 families
@@ -3265,6 +3288,7 @@ fetch
 fetch_path
 fetch_size
 fetch_spec
+fetch_values
 fetcher
 field?
 field_row?
@@ -3568,6 +3592,7 @@ gregorian
 gregorian?
 gregorian_leap?
 grep
+grep_v
 grid
 grid_bbox
 grid_cells
@@ -3958,6 +3983,7 @@ kanjifont_copy
 kanjitagfont_configure
 kconv
 keep_alive
+keep_alive_timeout
 keep_if
 key
 key?
@@ -3980,6 +4006,7 @@ labels
 labelwidget
 lambda
 lambda?
+lang
 language
 lappend
 last
@@ -4044,6 +4071,7 @@ link
 link_command
 linkname
 list
+listable?
 listen
 listeners
 ljust
@@ -4080,7 +4108,9 @@ loader
 local
 local?
 local_address
+local_host
 local_name
+local_port
 local_variable_defined?
 local_variable_get
 local_variable_set
@@ -4249,9 +4279,12 @@ minsize
 mjd
 mkcol
 mkdir
+mkfifo
 mkmf
 mkpath
 mktmpdir
+mlsd
+mlst
 mname
 mod_add
 mod_exp
@@ -4263,6 +4296,7 @@ mode
 modifiable
 modified
 modified?
+modify
 modify_taskbar
 module_function
 modules
@@ -4311,6 +4345,7 @@ need_tar_bz2
 need_tar_gz
 need_zip
 needed?
+negative?
 negotiate
 nest
 nesting
@@ -4557,6 +4592,7 @@ passwd
 password
 password_field
 paste
+patch
 path
 path_info
 path_ok?
@@ -4567,6 +4603,7 @@ pathmap
 pathmap_explode
 pathmap_partial
 pathmap_replace
+pathname
 pattern
 pbkdf2_hmac
 pbkdf2_hmac_sha1
@@ -4579,6 +4616,7 @@ peeraddr
 pending
 pending_interrupt?
 period
+perm
 permutation
 permutation?
 permute
@@ -4637,6 +4675,7 @@ port
 pos
 position
 positionfrom
+positive?
 post
 post2
 post_connection_check
@@ -4750,9 +4789,11 @@ proxy_basic_auth
 proxy_class?
 proxy_coord
 proxy_forget
+proxy_from_env?
 proxy_pass
 proxy_place
 proxy_port
+proxy_uri
 proxy_user
 prune
 pseudo_bytes
@@ -4781,6 +4822,7 @@ public_method_defined?
 public_methods
 public_send
 pull
+purgeable?
 push
 push_all_highest_version_gems_on_load_path
 push_gem_version_on_load_path
@@ -4956,6 +4998,7 @@ remove_private_comments
 remove_response_handler
 remove_spec
 remove_tk_procs
+renamable?
 rename
 renegotiation_cb
 renew
@@ -5078,6 +5121,7 @@ rows
 rpartition
 rsearch
 rsearch_with_length
+rset
 rshift!
 rsqrt
 rss
@@ -5917,6 +5961,7 @@ udp_server_sockets
 uid
 uid_copy
 uid_fetch
+uid_move
 uid_search
 uid_store
 uid_thread
@@ -5951,6 +5996,7 @@ uninstall_doc
 uninstall_gem
 union
 uniq
+unique
 unit_test
 unitary?
 unix
