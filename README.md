@@ -1,3 +1,34 @@
+What's this?
+=============
+
+This repository has some dictionaries for [neocomplete.vim](https://github.com/Shougo/neocomplete.vim).
+
+
+
+![1454671166](https://cloud.githubusercontent.com/assets/4361134/12844935/d2e9cf02-cc45-11e5-9ba5-c637342bf63f.png)
+
+Installation and Usage
+==============
+
+Clone this repository.
+
+```sh
+$ git clone https://github.com/pocke/dicts /path/to/any/dir/for/dicts
+```
+
+And add the following code into `.vimrc`.
+
+
+```vim
+let s:neco_dicts_dir = '/path/to/any/dir/for/dicts'
+if isdirectory(s:neco_dicts_dir)
+  let g:neocomplete#sources#dictionary#dictionaries = {
+  \   'ruby': s:neco_dicts_dir . '/ruby.dict',
+  \   'javascript': s:neco_dicts_dir . '/jquery.dict',
+  \ }
+endif
+```
+
 Dictionaries
 ================
 
